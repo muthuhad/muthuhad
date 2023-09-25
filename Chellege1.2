@@ -1,0 +1,19 @@
+# Leap year
+
+"""
+year % 4 ==0 &
+year % 400 ==0
+
+"""
+def isLeapyear(year):
+  if(year % 4 == 0 and year % 100 !=0) or year % 4 == 0:
+    return Turn
+  else:
+    return False
+
+year = 2014
+
+if isLeapyear(year):
+ print('{} is a leap year.'. format (year))
+else:
+  print('{} is not a leap year.'.format (year))
